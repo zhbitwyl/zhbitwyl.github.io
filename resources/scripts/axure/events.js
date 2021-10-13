@@ -880,20 +880,6 @@ $axure.internal(function ($ax) {
                     });
                 }
 
-                if(!ANDROID) {
-                    inputJobj.bind('keydown', function() {
-                        if(!dObj.HideHintOnFocused) {
-                            var id = this.id;
-                            var inputIndex = id.indexOf('_input');
-                            if(inputIndex == -1) return;
-                            var inputId = id.substring(0, inputIndex);
-
-                            if(!$ax.placeholderManager.isActive(inputId)) return;
-                            $ax.placeholderManager.updatePlaceholder(inputId, false, true);
-                        }
-                    });
-                }
-
                 $ax.placeholderManager.registerPlaceholder(elementId, dObj.placeholderText, inputJobj.attr('type') == 'password');
                 $ax.placeholderManager.updatePlaceholder(elementId, !($jobj($ax.repeater.applySuffixToElementId(elementId, '_input')).val()));
             }
