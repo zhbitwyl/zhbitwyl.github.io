@@ -92,7 +92,7 @@
   width:1441px;
   height:100px;
   display:flex;
-  font-family:"楷体 Bold", "楷体", sans-serif;
+  font-family:"楷体 Bold", "楷体 Regular", "楷体", sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:72px;
@@ -438,7 +438,7 @@
   left:0px;
   top:0px;
   width:300px;
-  height:46px;
+  height:34px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -446,7 +446,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-size:20px;
+  font-size:15px;
 }
 #u6 {
   border-width:0px;
@@ -454,9 +454,9 @@
   left:570px;
   top:826px;
   width:300px;
-  height:46px;
+  height:34px;
   display:flex;
-  font-size:20px;
+  font-size:15px;
 }
 #u6 .text {
   position:absolute;
