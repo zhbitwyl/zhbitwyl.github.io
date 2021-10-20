@@ -97,9 +97,16 @@
 .radio_button {
   text-align:left;
 }
+.tree_node {
+  text-align:left;
+}
+._流程形状 {
+}
 .table_cell {
 }
 .connector {
+}
+.snapshot {
 }
 .sticky_1 {
   text-align:left;
